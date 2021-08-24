@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="36630" started-at="2021-08-24T05:25:25 EDT" finished-at="2021-08-24T05:26:02 EDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@578486a3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="36630" started-at="2021-08-24T05:25:25 EDT" finished-at="2021-08-24T05:26:02 EDT">
+      <class name="TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner@578486a3]" name="setUpClass" is-config="true" duration-ms="221" started-at="2021-08-24T05:25:25 EDT" finished-at="2021-08-24T05:25:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@578486a3]" name="runScenario" duration-ms="24560" started-at="2021-08-24T05:25:25 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-24T05:25:50 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to select random value for the dropdown"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[profile]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@578486a3]" name="runScenario" duration-ms="11774" started-at="2021-08-24T05:25:50 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-24T05:26:02 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User verify selected value"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[profile]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner@578486a3]" name="tearDownClass" is-config="true" duration-ms="48" started-at="2021-08-24T05:26:02 EDT" finished-at="2021-08-24T05:26:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

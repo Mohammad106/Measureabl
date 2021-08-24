@@ -1,0 +1,211 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-24T09:25:26.019Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3092000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def.Hook.openbrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should be able to select random value for the dropdown",
+        "description": "",
+        "id": "profile;user-should-be-able-to-select-random-value-for-the-dropdown",
+        "after": [
+          {
+            "result": {
+              "duration": 711000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in login page",
+            "match": {
+              "location": "Step_Def.Login_Steps.user_is_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter his userID and Password",
+            "match": {
+              "location": "Step_Def.Login_Steps.userEnterHisUserIDAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5170000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on login button",
+            "match": {
+              "location": "Step_Def.Login_Steps.userClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2461000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on profile",
+            "match": {
+              "location": "Step_Def.Profile_Steps.userClickOnProfile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1387000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user select random value and save it",
+            "match": {
+              "location": "Step_Def.Profile_Steps.userSelectRandomValue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11481000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user will verify he can select value",
+            "match": {
+              "location": "Step_Def.Profile_Steps.userWillVerifyHeCanSelectValue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-24T09:25:50.491Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2355000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def.Hook.openbrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User verify selected value",
+        "description": "",
+        "id": "profile;user-verify-selected-value",
+        "after": [
+          {
+            "result": {
+              "duration": 654000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is in login page",
+            "match": {
+              "location": "Step_Def.Login_Steps.user_is_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter his userID and Password",
+            "match": {
+              "location": "Step_Def.Login_Steps.userEnterHisUserIDAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5040000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click on login button",
+            "match": {
+              "location": "Step_Def.Login_Steps.userClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2230000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click on profile",
+            "match": {
+              "location": "Step_Def.Profile_Steps.userClickOnProfile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1347000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user varify the selected value",
+            "match": {
+              "location": "Step_Def.Profile_Steps.userVarifyTheSelectedValue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "profile",
+    "description": "",
+    "id": "profile",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/profile.feature",
+    "tags": []
+  }
+]
